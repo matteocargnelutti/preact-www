@@ -105,7 +105,7 @@ with a `user` property containing our signed-in user, along with
 
 ```jsx
 import { createContext } from 'preact'
-import { useState, useContext } from 'preact/hooks'
+import { useState, useContext, useMemo } from 'preact/hooks'
 
 const AuthContext = createContext()
 
